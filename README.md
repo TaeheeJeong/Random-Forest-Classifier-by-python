@@ -1,19 +1,10 @@
-# Random-Forest-Classifier example by-python
+## Random-Forest-Classifier example by-python
 
 This is Classifier by Random Forest method using python.
 data set: tree_addhealth.csv
 Classifier: Random forest from sklearn
 
 # Confusion Matrix
-#              +---------------------------------------------+
-#              |                Predicted label              |
-#              +----------------------+----------------------+
-#              |          (+1)        |         (-1)         |
-#+-------+-----+----------------------+----------------------+
-#| True  |(+1) | # of true positives  | # of false negatives |
-#| label +-----+----------------------+----------------------+
-#|       |(-1) | # of false positives | # of true negatives  |
-#+-------+-----+----------------------+----------------------+
 array([[1408,   80],
        [ 227,  115]])
        
