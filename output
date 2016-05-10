@@ -1,0 +1,38 @@
+# Random Forest classifer
+# week2 assignment for Machine learning for Data Analysis
+dataset: tree_addhealth.csv
+
+features: 'BIO_SEX','HISPANIC','WHITE','BLACK','NAMERICAN','ASIAN','age',
+'ALCEVR1','ALCPROBS1','marever1','cocever1','inhever1','cigavail','DEP1','ESTEEM1','VIOL1',
+'PASSIST','DEVIANT1','SCHCONN1','GPA1','EXPEL1','FAMCONCT','PARACTV','PARPRES'
+target: TREG1
+
+
+#Test Accuracy: 0.839344262295
+
+# coeffficient for each feature
+      feature  coefficients
+0     BIO_SEX      0.027239
+1    HISPANIC      0.015067
+2       WHITE      0.024694
+3       BLACK      0.015413
+4   NAMERICAN      0.007146
+5       ASIAN      0.005081
+6         age      0.057354
+7     ALCEVR1      0.043323
+8   ALCPROBS1      0.051789
+9    marever1      0.121947
+10   cocever1      0.015299
+11   inhever1      0.015196
+12   cigavail      0.030720
+13       DEP1      0.056667
+14    ESTEEM1      0.053048
+15      VIOL1      0.051254
+16    PASSIST      0.017743
+17   DEVIANT1      0.076404
+18   SCHCONN1      0.059677
+19       GPA1      0.073710
+20     EXPEL1      0.011330
+21   FAMCONCT      0.066338
+22    PARACTV      0.056380
+23    PARPRES      0.047181
