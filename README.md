@@ -1,4 +1,9 @@
-## Random-Forest-Classifier example by-python
+## Random Forest Classifier by python
+
+Random forest analysis was performed to evaluate the importance of a series of explanatory variables in predicting a binary, categorical response variable. The following explanatory variables were included as possible contributors to a random forest evaluating 'BIO_SEX','HISPANIC','WHITE','BLACK','NAMERICAN','ASIAN','age', 'ALCEVR1','ALCPROBS1','marever1','cocever1','inhever1','cigavail','DEP1','ESTEEM1','VIOL1',
+'PASSIST','DEVIANT1','SCHCONN1','GPA1','EXPEL1','FAMCONCT','PARACTV','PARPRES'
+
+The explanatory variables with the highest relative importance scores were 'marever1', 'age', 'ESTEEM1'. The accuracy of the random forest was 83%, with the subsequent growing of multiple trees rather than a single tree, adding little to the overall accuracy of the model, and suggesting that interpretation of a single decision tree may be appropriate.
 
 This is Classifier by Random Forest method using python.
 data set: tree_addhealth.csv
