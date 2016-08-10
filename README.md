@@ -15,8 +15,8 @@ data set: tree_addhealth.csv
 Classifier: Random forest from sklearn
 
 # Confusion Matrix
-array([[1408,   80],
-          [ 227,  115]])
+array([[1408,   80],       
+         [ 227,  115]])
 +-------+-----+----------------------+-------------+   
 |  # of true positives  |   # of false negatives |   
 | +-----+----------------------+------------------+   
