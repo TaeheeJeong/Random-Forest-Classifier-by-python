@@ -28,8 +28,8 @@ Test Accuracy: 0.832240437158
 3         BLACK        0.022746  
 4     NAMERICAN        0.007776  
 5         ASIAN        0.004993  
-6           age        0.061536 
-7       ALCEVR1        0.052870  
+6           age        0.061536   
+7       ALCEVR1        0.052870    
 8     ALCPROBS1        0.054727  
 9      marever1        0.107234  
 10     cocever1        0.013068  
