@@ -1,11 +1,11 @@
 ## Random Forest Classifier by python
 
 Random forest analysis was performed to evaluate the importance of a series of explanatory variables in predicting a binary, categorical response variable.   
-The following explanatory variables were included as possible contributors to a random forest evaluating. 
-(categorical)  
-'BIO_SEX','HISPANIC','WHITE','BLACK','NAMERICAN','ASIAN','ALCEVR1','marever1','cocever1','inhever1','cigavail','PASSIST','EXPEL1', 
-(quantitative)  
-'age','ALCPROBS1','DEVIANT1','VIOL1','DEP1','ESTEEM1','PARPRES','PARACTV','FAMCONCT','SCHCONN1','GPA1'
+The following explanatory variables were included as possible contributors to a random forest evaluating.   
+(categorical)    
+'BIO_SEX','HISPANIC','WHITE','BLACK','NAMERICAN','ASIAN','ALCEVR1','marever1','cocever1','inhever1','cigavail','PASSIST','EXPEL1',   
+(quantitative)    
+'age','ALCPROBS1','DEVIANT1','VIOL1','DEP1','ESTEEM1','PARPRES','PARACTV','FAMCONCT','SCHCONN1','GPA1'   
 
 The explanatory variables with the highest relative importance scores were 'marever1', 'age', 'ESTEEM1'.   
 The accuracy of the random forest was 83%, with the subsequent growing of multiple trees rather than a single tree, adding little to the overall accuracy of the model, and suggesting that interpretation of a single decision tree may be appropriate.
