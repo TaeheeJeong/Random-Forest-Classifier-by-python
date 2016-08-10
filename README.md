@@ -15,16 +15,15 @@ data set: tree_addhealth.csv
 Classifier: Random forest from sklearn
 
 # Confusion Matrix
-
+array([[1408,   80],
+          [ 227,  115]])
 +-------+-----+----------------------+-------------+   
 |  # of true positives  |   # of false negatives |   
 | +-----+----------------------+------------------+   
 |  # of false positives |   # of true negatives  |   
 +-------+-----+----------------------+-------------+   
 
-array([[1408,   80],     
-              [ 227,  115]])
-       
+
 Test Accuracy: 0.832240437158
 
 # relative importance of each attribute  
