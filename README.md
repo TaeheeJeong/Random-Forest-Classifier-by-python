@@ -20,9 +20,9 @@ Classifier: Random forest from sklearn
               +----------------------+----------------------+
               |          (+1)        |         (-1)         |   
 +-------+-----+----------------------+----------------------+   
-| True  |(+1) | # of true positives  | # of false negatives |   
+| True  |(+1) |  # of true positives  |   # of false negatives |   
 | label +-----+----------------------+----------------------+   
-|       |(-1) | # of false positives | # of true negatives  |   
+|       |(-1) |  # of false positives |   # of true negatives  |   
 +-------+-----+----------------------+----------------------+   
 
 array([[1408,   80],
