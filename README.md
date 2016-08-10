@@ -16,7 +16,7 @@ Classifier: Random forest from sklearn
 
 # Confusion Matrix
 array([[1408,   80],       
-.......[ 227,  115]])
+..........[ 227,  115]])
          
 +-------+-----+----------------------+-------------+   
 |  # of true positives  |   # of false negatives |   
