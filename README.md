@@ -22,7 +22,7 @@ Classifier: Random forest from sklearn
 |  # of false positives |   # of true negatives  |   
 +-------+-----+----------------------+-------------+   
 
-array([[1408,   80],
+array([[1408,   80],     
        [ 227,  115]])
        
 Test Accuracy: 0.832240437158
