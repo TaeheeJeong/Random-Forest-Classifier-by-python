@@ -9,7 +9,8 @@ The following explanatory variables were included as possible contributors to a 
 
 The explanatory variables with the highest relative importance scores were 'marever1', 'GPA1', 'DEVIANT1'.
 The explanatory variables with the lowest relative importance scores were 'ASIAN' and 'NAMERICAN'.
-The accuracy of the random forest was 83%, with the subsequent growing of multiple trees rather than a single tree, adding little to the overall accuracy of the model, and suggesting that interpretation of a single decision tree may be appropriate.
+The accuracy of the random forest was 83%, with the subsequent growing of multiple trees rather than a single tree, adding little to the overall accuracy of the model as accuracy_by_Ntree1.png, and suggesting that interpretation of a single decision tree may be appropriate.
+(after I changed the sequence of explanatory variables, the accuracy is changed with growing trees as accuracy_by_Ntree2.png)
 
 This is Classifier by Random Forest method using python.  
 data set: tree_addhealth.csv
